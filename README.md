@@ -22,7 +22,7 @@ These are all really interesting and fundamental aspects of the music. The featu
 ## Methods and Results
 First, in order to understand how each of the decades are represented, we drew a simple correlation matrix. This allows us to understand the relationship that each feature has with every other feature; this could help us determine how we want to go about the model itself. However, we mostly approach this during preliminary exploration. Here, you can see the heatmap drawn of the 1950s dataset. 
 
-![Heatmap 1950](images/heatmap_1950.png)
+![Heatmap 1950](images/heatmap/heatmap_1950.png)
 
 There is not much to note here other than the fact that there are slightly significant correlations with the feature **duration** amongst other features. Valence is also quite notable. It has a significant correlation with the other features as well. This is consistent with the other heatmaps amongst other decades. 
 
@@ -30,16 +30,16 @@ We also analyzed the most popular artists by decade.  Unsurprisingly, the popula
 
 What we want to understand is how each feature is represented throughout the decades. In other words, how have the features changed and how have they stayed the same. In order to do so, we created a massive dataset including all of these decades and summed each feature up by each decade. 
 
-![Time Series Trends: acous](images/time_series_trends_acous.png)
-![Time Series Trends: bpm](images/time_series_trends_bpm.png)
-![Time Series Trends: dB](images/time_series_trends_dB.png)
-![Time Series Trends: dnce](images/time_series_trends_dnce.png)
-![Time Series Trends: dur](images/time_series_trends_dur.png)
-![Time Series Trends: live](images/time_series_trends_live.png)
-![Time Series Trends: nrgy](images/time_series_trends_nrgy.png)
-![Time Series Trends: pop](images/time_series_trends_pop.png)
-![Time Series Trends: spch](images/time_series_trends_spch.png)
-![Time Series Trends: val](images/time_series_trends_val.png)
+![Time Series Trends: acous](images/time_series_trends/time_series_trends_acous.png)
+![Time Series Trends: bpm](images/time_series_trends/time_series_trends_bpm.png)
+![Time Series Trends: dB](images/time_series_trends/time_series_trends_dB.png)
+![Time Series Trends: dnce](images/time_series_trends/time_series_trends_dnce.png)
+![Time Series Trends: dur](images/time_series_trends/time_series_trends_dur.png)
+![Time Series Trends: live](images/time_series_trends/time_series_trends_live.png)
+![Time Series Trends: nrgy](images/time_series_trends/time_series_trends_nrgy.png)
+![Time Series Trends: pop](images/time_series_trends/time_series_trends_pop.png)
+![Time Series Trends: spch](images/time_series_trends/time_series_trends_spch.png)
+![Time Series Trends: val](images/time_series_trends/time_series_trends_val.png)
 
 As you can see, the data displays how different each decade acts with every single feature. Each feature also has dramatically different relationships with time. While decibels seems to increase slowly over a period of time, probably reflecting the improving recording equipment, valence has a very staggering relationship. It seems to increase, but then it rapidly decreases.
 
